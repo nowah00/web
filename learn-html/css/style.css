@@ -1,0 +1,39 @@
+* {
+  text-align: center;
+}
+.header {
+  border: 2px solid red;
+  line-height: 55px;
+  width: 510px;
+  height: 55px;
+  margin-bottom: 10px;
+}
+.nav {
+  border: 2px solid blue;
+  width: 200px;
+  height: 300px;
+  margin-right: 10px;
+}
+.article {
+  border: 2px solid green;
+  width: 300;
+  height: 300px;
+  line-height: 300px;
+}
+.footer {
+  border: 2px solid black;
+  width: 510;
+  height: 55px;
+  line-height: 55px;
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}

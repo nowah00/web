@@ -1,0 +1,15 @@
+p {
+  color: blue;
+}
+div p {
+  color: orange;
+}
+.my-p1 {
+  color: red;
+}
+#my-p2 {
+  color: brown;
+}
+div div p {
+  background-color: yellow;
+}

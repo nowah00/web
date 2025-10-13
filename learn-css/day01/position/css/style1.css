@@ -1,0 +1,33 @@
+/* 
+solid: 실선 
+dotted: 점선
+*/
+
+/* 너비가 1280px 이하인 경우 배경이 초록
+너비가 600px 이하인 경우 배경이 카키 */
+
+@media (max-width: 1280px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: khaki;
+  }
+}
+
+h1 {
+  border-bottom: 1px dotted gray;
+  padding: 10px;
+}
+
+span {
+  border: 2px dotted black;
+  padding: 5px;
+}
+
+/* body {
+  background-color: green;
+} */

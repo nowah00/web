@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>입력양식 테스트</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>입력양식 속성</legend>
+        <p>
+          <label>아이디:</label>
+          <input type="text" name="id" />
+        </p>
+        <p>
+          <label>비밀번호:</label>
+          <input type="password" name="password" />
+        </p>
+        <p>
+          <label>검색:</label>
+          <input type="search" id="search" />
+        </p>
+        <p>
+          <label>이메일:</label>
+          <input type="email" id="email" />
+        </p>
+        <p>
+          <label>전화번호:</label>
+          <input type="tel" id="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" />
+        </p>
+        <p>
+          <label>컬러선택:</label>
+          <input type="color" id="color" />
+        </p>
+        <p>
+          <label>수량:</label>
+          <input type="number" id="number" value="1" min="1" max="5" />
+        </p>
+        <p>
+          <label>만족도:</label>
+          <input type="range" id="range" value="0" min="0" max="100" />
+        </p>
+        <p>
+          <label>예</label>
+          <input type="radio" name="YesOrNo" checked />
+          <label>아니오</label>
+          <input type="radio" name="YesOrNo" />
+        </p>
+        <p>
+          <label>html</label>
+          <input type="checkbox" checked />
+          <label>css</label>
+          <input type="checkbox" />
+        </p>
+        <p><input type="submit" value="전송" /></p>
+        <p><input type="reset" value="취소" /></p>
+        <p><input type="button" value="확인" /></p>
+        <p>
+          <input type="image" src="images/bt.png" value="검색" />
+        </p>
+        <p><input type="file" /></p>
+      </fieldset>
+    </form>
+  </body>
+</html>

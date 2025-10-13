@@ -1,0 +1,15 @@
+div {
+  width: 600px;
+  margin: 0px auto;
+}
+
+h1 {
+  color: white;
+  background-color: darkblue;
+  display: inline-block;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
