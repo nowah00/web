@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shinseageflix</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="images/login-img.png" alt="banner" />
+    <div class="login-title">
+      <h1 class="login-title__mainText">Shinseageflix</h1>
+      <p class="login-title__subText">
+        OTT 신세계플릭스 등장<br />
+        지금 가입하면 무료!
+      </p>
+    </div>
+    <!-- form 태그는 입력한 정버를 서버로 전송한다 -->
+    <!-- form 태그(post 방식)와 a 태그(get 방식)의 차이  -->
+    <form action="find.html" class="login-form">
+      <input
+        type="text"
+        name="user_name"
+        required
+        autocomplete="off"
+        placeholder="ID"
+      />
+      <input
+        type="password"
+        name="user_pwd"
+        required
+        autocomplete="off"
+        placeholder="PASSWORD"
+      />
+      <input type="submit" value="접속하기" />
+    </form>
+  </body>
+</html>

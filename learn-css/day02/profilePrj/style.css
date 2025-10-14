@@ -1,0 +1,88 @@
+/* card 영역의 부모가 body  */
+body {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(164, 130, 86);
+}
+
+.card {
+  background-color: white;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.banner {
+  background-image: url('images/background.png');
+  background-size: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  /* 프로필의 높이와 넓이 지정 */
+  width: 8rem;
+  height: 8rem;
+  /* 프로필의 이미지 삽임 */
+  background-image: url('images/profile-nowah.png');
+  background-size: 120px;
+  /* 프로필의 곡률 조정 */
+  border-radius: 50%;
+  /* 프로필의 그림자 추가 */
+  box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  /* 프로필의 크기 변형 */
+  transform: translateY(50%);
+  transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+/* 프로필의 애니메이션 느낌 추가 */
+.profile:hover {
+  transform: translateY(50%) scale(1.2);
+}
+
+.name {
+  /* 글자를 중앙 정렬하고 가격을 조정 */
+  text-align: center;
+  padding-top: 60px;
+}
+
+.follow-btn {
+  /* 버튼의 길이조정 */
+  padding: 0.2rem;
+  /* block 값을 flex로 변경 */
+  display: flex;
+  /* 축 방향 바꿈 */
+  flex-direction: column;
+  /* 가운데 정렬 */
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-btn button {
+  /* 폰트 크기 변경 */
+  font-size: medium;
+  /* 폰트 굵기 변경 */
+  font-weight: bold;
+  /* 버튼 색상 변경 */
+  background-color: rgb(255, 211, 128);
+  border: none;
+  /* 버튼 크기 조정 */
+  padding: 1rem;
+  outline: none;
+  /* 버튼 곡률 변경 */
+  border-radius: 20px;
+}
+
+.follow-btn button:hover {
+  background-color: rgb(249, 175, 38);
+  transform: scale(1.2);
+}
+
+.description {
+  padding: 1.5rem;
+  text-align: center;
+}
