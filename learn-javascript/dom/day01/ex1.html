@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex1</title>
+  </head>
+  <body>
+    <button id="btn">눌러보세여</button>
+    <p id="text">안녕하세요</p>
+    <script>
+      const button = document.getElementById('btn');
+      const text = document.getElementById('text');
+
+      // 이벤트가 발생하면 '수빌러'를 지정
+      button.addEventListener('click', () => {
+        text.textContent = 'DOM을 통해 바뀌었어요!';
+      });
+    </script>
+  </body>
+</html>
